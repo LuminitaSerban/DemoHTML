@@ -1,0 +1,833 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\000031}}
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\000036}}
+  header nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\000039}}
+    header nav ul {
+      list-style: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\0000312}}
+      header nav ul li {
+        display: inline-block;
+        margin-left: 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\0000316}}
+        header nav ul li a {
+          font-family: 'Montserrat', sans-serif;
+          font-weight: normal;
+          font-size: 12px;
+          color: white;
+          text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\0000328}}
+.base-header-container {
+  margin-top: 0 !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\0000332}}
+.auth {
+  margin-left: 16px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\0000336}}
+.heading-section {
+  height: 100vh;
+  width: 100%;
+  max-height: 750px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.3); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\0000344}}
+.heading-section .heading-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\0000356}}
+.before-circle {
+  position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\0000360}}
+.before-circle::before {
+  content: "";
+  position: absolute;
+  left: -26px;
+  bottom: 27px;
+  background-color: #99E123;
+  border-radius: 50px;
+  width: 6px;
+  height: 6px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\0000372}}
+.control {
+  position: relative;
+  width: 38px;
+  height: 38px;
+  border-radius: 50px;
+  background-color: #85B52D; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\0000379}}
+  .control::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 7px 0 7px 13px;
+    border-color: transparent transparent transparent #000;
+    top: 50%;
+    left: 54%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\0000399}}
+.second-block-h3 {
+  color: #0d4b31;
+  margin-top: 2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003104}}
+.mark {
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003108}}
+.inner-content {
+  position: relative;
+  margin-top: 20px;
+  z-index: 999; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003114}}
+.circles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003120}}
+  .circles::after {
+    content: "";
+    height: 10px;
+    width: 100%;
+    background-image: -webkit-gradient(linear, right top, left top, from(#acff00), to(#009a97));
+    background-image: linear-gradient(to left, #acff00, #009a97);
+    position: absolute;
+    border-radius: 50px;
+    left: 0;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    z-index: -1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003135}}
+.circles span {
+  display: block;
+  width: 77px;
+  height: 77px;
+  border-radius: 50px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003142}}
+.gradient {
+  position: absolute;
+  left: -6%;
+  right: -6%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  height: 10px;
+  background-color: #ddd;
+  z-index: -1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003152}}
+  .gradient .span-1 {
+    background-color: #99E123;
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+    position: absolute;
+    left: 10.5%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003161}}
+  .gradient .span-2 {
+    background-color: #089F90;
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+    position: absolute;
+    right: 10.5%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003171}}
+.gradient::before {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 10px;
+  left: 10.5%;
+  right: 10.5%;
+  background: #000;
+  background-image: -webkit-gradient(linear, right top, left top, from(#acff00), to(#009a97));
+  background-image: linear-gradient(to left, #acff00, #009a97);
+  border-radius: 50px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003183}}
+.one {
+  background-color: #089F90; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003187}}
+.two {
+  background-color: #33B869; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003191}}
+.three {
+  background-color: #60D343; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003195}}
+.four {
+  background-color: #99E123; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003199}}
+.circles img {
+  width: 40px;
+  height: 37px;
+  margin: 20px 19px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003205}}
+.info-second-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0 auto;
+  width: 1140px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003212}}
+.info-card {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 0 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003218}}
+.info-second-block h4 {
+  font-family: 'Comfortaa';
+  font-weight: 600;
+  font-size: 20px;
+  color: #0d4b31;
+  letter-spacing: -0.25px;
+  text-align: center;
+  width: 80%;
+  margin: 1.5em auto .5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003229}}
+.info-second-block p {
+  font-family: 'Montserrat';
+  font-weight: lighter;
+  font-size: 15px;
+  color: #677556;
+  letter-spacing: 1px;
+  text-align: center;
+  line-height: 22px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003239}}
+.button-second-block {
+  text-align: center;
+  margin: 30px auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003245}}
+.three-section {
+  width: 100%;
+  max-height: 470px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003251}}
+  .three-section p {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 27px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003258}}
+.three-section .three-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003270}}
+.base-container {
+  margin-top: 18%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003274}}
+.middle-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003282}}
+.three-block-h3 {
+  color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003286}}
+.button-three-block {
+  text-align: center;
+  margin: 30px auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003293}}
+.four-section {
+  background-color: #F0F0F0;
+  min-height: 750px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003298}}
+.four-section-cards {
+  width: 100%;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003302}}
+  .four-section-cards img {
+    width: 50%;
+    z-index: -1;
+    float: right;
+    height: 750px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003310}}
+.base-container.four-block-base-container {
+  padding: 120px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003315}}
+.h4-four-block {
+  font-family: 'Comfortaa';
+  font-size: 34px;
+  color: #089f90;
+  letter-spacing: 1.21px;
+  line-height: 43px;
+  text-align: left;
+  margin-top: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003325}}
+.p-four-block {
+  font-family: 'Montserrat';
+  font-size: 17px;
+  color: #4a4a4a;
+  letter-spacing: 1.21px;
+  line-height: 43px;
+  text-align: left;
+  font-weight: 100; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003337}}
+.five-section {
+  background-color: #089F90;
+  min-height: 750px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003342}}
+.five-section-cards {
+  width: 100%;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003346}}
+  .five-section-cards img {
+    width: 50%;
+    z-index: -1;
+    float: left;
+    height: 750px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003354}}
+.base-container.five-block-base-container {
+  padding: 100px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003358}}
+.h4-five-block {
+  font-family: 'Comfortaa';
+  font-size: 34px;
+  color: #fff;
+  letter-spacing: 1.21px;
+  line-height: 43px;
+  text-align: left;
+  margin-top: 0;
+  padding-left: 634px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003369}}
+.p-five-block {
+  font-family: 'Montserrat';
+  font-size: 17px;
+  color: #fff;
+  letter-spacing: 1.07px;
+  line-height: 29px;
+  text-align: left;
+  font-weight: 100;
+  padding-left: 634px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003379}}
+  .p-five-block p {
+    text-align: left;
+    margin: 30px 0;
+    font-weight: 100; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003387}}
+.h3-six {
+  font-family: 'Comfortaa-Bold';
+  font-size: 36px;
+  color: #0d4b31;
+  margin: 76px 0 -26px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003395}}
+.rising-founds {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  place-content: stretch center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003402}}
+  .rising-founds .svg-shape-background {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003412}}
+.svg-circle {
+  margin: 0 6vw; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003416}}
+.circles-gradient {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 1e-09px;
+          flex: 1 1 1e-09px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  place-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003426}}
+.info-svg {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  width: 100%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003434}}
+.text-svg {
+  font-family: 'Comfortaa-Bold';
+  font-size: 22px;
+  color: #a5a5a5;
+  text-align: center;
+  line-height: 26px;
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003443}}
+.number-svg {
+  font-family: 'Montserrat-Bold';
+  font-size: 41px;
+  color: #91ce46;
+  letter-spacing: 0;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003453}}
+.seven-section {
+  width: 100%;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003460}}
+  .seven-section p {
+    font-family: 'Montserrat-Light';
+    font-size: 17px;
+    color: #4a4a4a;
+    letter-spacing: 1px;
+    text-align: left;
+    font-weight: normal;
+    max-width: 52%;
+    line-height: 22px;
+    margin: 0 0 0 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003475}}
+.seven-section .seven-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003487}}
+.base-container {
+  margin-top: 18%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003491}}
+.middle-container.seven-middle {
+  padding-top: 68px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003495}}
+.seven-block-h3 {
+  font-family: 'Comfortaa-Bold';
+  font-size: 36px;
+  color: #0d4b31;
+  text-align: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003502}}
+.info-card-seven {
+  place-content: stretch flex-start;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003511}}
+.info-seven-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 100%;
+  place-content: stretch flex-start;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003520}}
+.info-card-seven span {
+  font-family: 'Comfortaa-Bold';
+  font-size: 55px;
+  color: #91ce46;
+  text-align: left;
+  min-width: 51px;
+  place-content: stretch flex-start;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003535}}
+.footer {
+  background-color: #000;
+  height: 100%;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003540}}
+  .footer ul {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    padding-right: 129px;
+    margin-top: 0;
+    margin-bottom: 83px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003548}}
+    .footer ul .first-link {
+      font-family: 'Montserrat-SemiBold';
+      color: #ffffff;
+      text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003554}}
+    .footer ul a {
+      text-decoration: none;
+      font-family: 'Montserrat-Light';
+      font-size: 12px;
+      color: #9b9b9b;
+      letter-spacing: 0.57px;
+      line-height: 28px;
+      text-align: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003565}}
+.first-li {
+  margin-top: 42px;
+  margin-bottom: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003570}}
+.footer ul:first-child {
+  padding-left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003574}}
+.footer-licence p {
+  font-family: 'Montserrat-Regular';
+  font-size: 11px;
+  color: #ffffff;
+  letter-spacing: 0.53px;
+  text-align: left;
+  font-weight: normal; }
+
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003584}}
+  .rising-founds {
+    margin: 5% 0; } }
+@media (max-width: 991px) and (min-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003597}}
+  .base-container {
+    width: 80% !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003601}}
+  h3 {
+    font-size: 28px !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003605}}
+  .gradient {
+    left: -13%;
+    right: -13%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003610}}
+  .second-section {
+    margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003614}}
+  .three-section {
+    height: 76vh; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003617}}
+    .three-section .middle-container {
+      padding-top: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003624}}
+  .info-card-seven p {
+    max-width: 31%; } }
+@media (max-width: 991px) and (min-width: 496px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003630}}
+  .rising-founds {
+    max-height: 28em;
+    min-height: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003634}}
+    .rising-founds .svg-shape-background {
+      display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003638}}
+    .rising-founds .circles-gradient {
+      padding: 3em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003644}}
+  .svg-circle {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003648}}
+  .four-section, .five-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003652}}
+    .four-section img, .five-section img {
+      width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003656}}
+    .four-section .base-container.four-block-base-container, .four-section .five-block-base-container, .five-section .base-container.four-block-base-container, .five-section .five-block-base-container {
+      padding: 25px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003659}}
+      .four-section .base-container.four-block-base-container h4, .four-section .five-block-base-container h4, .five-section .base-container.four-block-base-container h4, .five-section .five-block-base-container h4 {
+        padding-left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003663}}
+      .four-section .base-container.four-block-base-container .p-five-block, .four-section .five-block-base-container .p-five-block, .five-section .base-container.four-block-base-container .p-five-block, .five-section .five-block-base-container .p-five-block {
+        padding-left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003667}}
+      .four-section .base-container.four-block-base-container .img-stripe, .four-section .five-block-base-container .img-stripe, .five-section .base-container.four-block-base-container .img-stripe, .five-section .five-block-base-container .img-stripe {
+        width: 13%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003672}}
+    .four-section h4 br, .five-section h4 br {
+      display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003676}}
+    .four-section p br, .five-section p br {
+      display: none; } }
+@media (max-width: 767px) and (min-width: 496px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003683}}
+  .gradient {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003687}}
+  .circles::after {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003691}}
+  .info-card p {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003695}}
+  .second-block-h3 {
+    font-size: 24px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003699}}
+  .info-card h4 {
+    font-size: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003703}}
+  .three-section h3 {
+    font-size: 24px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003707}}
+  .three-section p {
+    font-size: 16px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003713}}
+  .four-section h4, .five-section h4 {
+    font-size: 20px;
+    line-height: 1.5em;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003719}}
+  .four-section p, .five-section p {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003725}}
+  .four-section img, .five-section img {
+    height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003729}}
+  .four-section .p-five-block img, .five-section .p-five-block img {
+    margin: 0 auto;
+    display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003735}}
+  .h3-six {
+    font-size: 24px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003739}}
+  .svg-circle {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003742}}
+    .svg-circle img {
+      max-width: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003746}}
+    .svg-circle .text-svg {
+      font-size: 27px;
+      margin-bottom: 0.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003753}}
+  .seven-section {
+    background-color: #f2f2f4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003756}}
+    .seven-section img {
+      display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003760}}
+    .seven-section .seven-middle {
+      margin: 0 3em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003764}}
+    .seven-section .button-seven-block {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      margin: 2em 0em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003769}}
+      .seven-section .button-seven-block button {
+        width: 75%;
+        margin-right: 0 !important;
+        margin: 0 1em 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003775}}
+      .seven-section .button-seven-block .second-button {
+        margin: 0 0 0 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003781}}
+  .seven-block-h3 {
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003787}}
+  .info-card-seven p {
+    font-size: 15px;
+    max-width: 100%; } }
+@media (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003794}}
+  .mark {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003798}}
+  .mark-min {
+    display: block !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003802}}
+  .info-card h4 {
+    width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003806}}
+  .button-seven-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003810}}
+    .button-seven-block button {
+      width: 100% !important;
+      margin: 1em 0 !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003816}}
+  .rising-founds {
+    max-height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/landing\.scss}line{font-family:\00003820}}
+  .circles-gradient {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; } }
+
+/*# sourceMappingURL=landing.css.map */

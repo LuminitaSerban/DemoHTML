@@ -1,0 +1,163 @@
+
+.heading-section {
+  height: 100%;
+  width: 100%;
+  max-height: 750px;
+  position: relative;
+  background-color: rgba(0,0,0,0.5);
+
+  &.small {
+    max-height: 336px;
+  }
+
+  .header-top {
+    margin-top: 10px;
+  } 
+}
+
+.heading-section .heading-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.header-menu {
+  float: right;
+}
+
+.base-header-container {
+  // margin-top: 9%;
+  display: block;
+  text-align: center;
+
+  h3 {
+    font-family: 'Comfortaa';
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing:1.28px;
+    color: #fff;
+    margin-top: 58px;
+   }
+
+  &.float-right {
+    float: right;
+  }
+}
+
+h1 span h1{
+  display: inline-block;
+  margin: 3% 2%;
+}
+
+// menu-toggle
+
+.menu-toggle {
+  height: 25px;
+  width: 35px;
+  background-color: transparent;
+  border-radius: 0;
+  border: none;
+  margin-top: 0;
+  padding: 0;
+
+  &::after {
+    display: none;
+  }
+
+  &:hover span {
+    background-color: rgb(211, 209, 209);
+  }
+
+  span {
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 9px;
+    height: 3px;
+    margin-top: 8px;
+    transition: background-color 0.2s;
+  }
+
+  span:first-child {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 991px) {
+
+  .base-container {
+    width: 80% !important;
+  }
+
+  .heading-section {
+    min-height: 400px !important;
+  }
+
+  .header-menu nav {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block !important;
+    margin-top: 38%;
+  } 
+
+  .logo {
+    max-width: 36% !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .logo {
+    width: 76px;
+    height: 76px;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 767px) {
+  h1 {
+    font-size: 38px;
+    letter-spacing: 0;
+  }
+
+  .before-circle::before {
+    content: "";
+    bottom: 22px;
+    left: -8px;
+  }
+}
+
+@media (max-width: 960px) and (min-width: 496px) {
+  .base-header-container p {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 496px) {
+  .base-header-container h1 {
+    font-size: 20px;
+
+    span {
+      // display: block;
+
+      h1 {
+        display: block;
+      }
+    }
+  }
+
+  .before-circle::before {
+    content: "";
+    left: -3px;
+    bottom: 8px;
+  }
+  
+}
+

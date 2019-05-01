@@ -1,0 +1,54 @@
+@import "./landing.scss";
+@import "./elements.scss";
+@import "./organizer.scss";
+@import "./footer.scss";
+@import "./header.scss";
+@import "./LetsGetStarted.scss";
+@import "./CreatePaymentAccount.scss";
+@import "./OrgPageInvitationStatus.scss";
+@import "./popup.scss";
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
+.base-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+img {
+  max-width: 100%;
+}
+
+.logo {
+  max-width: 314px;
+
+}
+
+.clearfix {
+  clear: both;
+}
+
+.text-center {
+  text-align: center;
+}
+
+* {
+  outline: none !important;
+}
+
+.no-gutters {
+  margin: 0 !important;
+}
+
+.box-sizing {
+  box-sizing: border-box !important;
+}

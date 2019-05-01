@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250" width="319px" height="319px">
+  <circle  fill="none" cx="125" cy="125" r="118.5" style="stroke: transparent; stroke-width: 13;"></circle>
+
+  <path  fill="none" style="stroke-width: 13; stroke: rgb(242, 240, 240);" d="M 6.7338228116667125 117.55948030996782 A 118.5 118.5 0 1 0 125.00000000000001 6.5"></path>
+
+  <g>
+    <svg width="100%" height="100%" style="transorm scale(0.8)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250" width="300px" height="300px">
+      <defs>
+          <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+              <stop stop-color="#95CF40" offset="0%"></stop>
+              <stop stop-color="#3ABEBE" offset="100%"></stop>
+          </linearGradient>
+      </defs>
+      <circle  fill="none" cx="125" cy="125" r="117.5" style="stroke: rgb(242, 240, 240); stroke-width: 15;"></circle>
+
+      <path fill="none" style="stroke-width: 15; stroke: url(#linearGradient-1);" d="M 187.772604124338 224.32698611882444 A 117.5 117.5 0 0 0 125.00000000000001 7.5"></path>
+    </svg>
+  </g>
+</svg>

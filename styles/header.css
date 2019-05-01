@@ -1,0 +1,137 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/header\.scss}line{font-family:\000032}}
+.heading-section {
+  height: 100%;
+  width: 100%;
+  max-height: 750px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/header\.scss}line{font-family:\000039}}
+  .heading-section.small {
+    max-height: 336px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/header\.scss}line{font-family:\0000313}}
+  .heading-section .header-top {
+    margin-top: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/header\.scss}line{font-family:\0000318}}
+.heading-section .heading-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/header\.scss}line{font-family:\0000330}}
+.header-menu {
+  float: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/header\.scss}line{font-family:\0000334}}
+.base-header-container {
+  display: block;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/header\.scss}line{font-family:\0000339}}
+  .base-header-container h3 {
+    font-family: 'Comfortaa';
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 1.28px;
+    color: #fff;
+    margin-top: 58px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/header\.scss}line{font-family:\0000349}}
+  .base-header-container.float-right {
+    float: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/header\.scss}line{font-family:\0000354}}
+h1 span h1 {
+  display: inline-block;
+  margin: 3% 2%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/header\.scss}line{font-family:\0000361}}
+.menu-toggle {
+  height: 25px;
+  width: 35px;
+  background-color: transparent;
+  border-radius: 0;
+  border: none;
+  margin-top: 0;
+  padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/header\.scss}line{font-family:\0000370}}
+  .menu-toggle::after {
+    display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/header\.scss}line{font-family:\0000374}}
+  .menu-toggle:hover span {
+    background-color: #d3d1d1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/header\.scss}line{font-family:\0000378}}
+  .menu-toggle span {
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 9px;
+    height: 3px;
+    margin-top: 8px;
+    -webkit-transition: background-color 0.2s;
+    transition: background-color 0.2s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/header\.scss}line{font-family:\0000388}}
+  .menu-toggle span:first-child {
+    margin-top: 0; }
+
+@media (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/header\.scss}line{font-family:\0000395}}
+  .base-container {
+    width: 80% !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/header\.scss}line{font-family:\0000399}}
+  .heading-section {
+    min-height: 400px !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/header\.scss}line{font-family:\00003103}}
+  .header-menu nav {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/header\.scss}line{font-family:\00003107}}
+  .menu-toggle {
+    display: block !important;
+    margin-top: 38%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/header\.scss}line{font-family:\00003112}}
+  .logo {
+    max-width: 36% !important; } }
+@media screen and (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/header\.scss}line{font-family:\00003118}}
+  .logo {
+    width: 76px;
+    height: 76px; } }
+@media (max-width: 991px) and (min-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/header\.scss}line{font-family:\00003125}}
+  h1 {
+    font-size: 38px;
+    letter-spacing: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/header\.scss}line{font-family:\00003130}}
+  .before-circle::before {
+    content: "";
+    bottom: 22px;
+    left: -8px; } }
+@media (max-width: 960px) and (min-width: 496px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/header\.scss}line{font-family:\00003138}}
+  .base-header-container p {
+    display: none; } }
+@media (max-width: 767px) and (min-width: 496px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/header\.scss}line{font-family:\00003144}}
+  .base-header-container h1 {
+    font-size: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/header\.scss}line{font-family:\00003150}}
+    .base-header-container h1 span h1 {
+      display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/header\.scss}line{font-family:\00003156}}
+  .before-circle::before {
+    content: "";
+    left: -3px;
+    bottom: 8px; } }
+
+/*# sourceMappingURL=header.css.map */

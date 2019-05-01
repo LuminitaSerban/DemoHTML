@@ -1,0 +1,178 @@
+.span-container {
+  position: relative;
+}
+
+.line-grey {
+  height: 10px;
+  width: 449px;
+  background-color: #ddd;
+  // z-index: -1;
+  position: absolute;
+  right: 26%;
+  top: 160px;
+  border-radius: 50px;
+}
+
+.span-card h4 {
+  font-size: 36px;
+}
+
+
+.span-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 122px;
+  position: relative;
+
+  .span-card {
+    display: inline-block;
+    margin-top: 45px;
+    margin-bottom: 40px;
+  
+    .span-item {
+      display: block;
+      width: 235px;
+      height: 235px;
+      border-radius: 50%;
+      margin: 0 auto;
+  
+      &.blue {
+        background-color: #3ABEBE;
+      }
+  
+      &.green {
+        background-color: #91BC3F;
+      }
+    }
+
+    img {
+      margin: 28% auto;
+    }
+
+    p {
+      font-family:'Montserrat-Light';
+      font-weight: normal;
+      font-size:15px;
+      color:#677556;
+      letter-spacing:1px;
+      text-align:center;
+      line-height:22px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .span-card {
+    width: 43%; 
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .base-header-container h3 {
+    font-size: 28px; 
+    width: 100%;
+  }
+
+  .logo {
+    width: 260px;
+    height: 45px;
+  }
+
+  .header-menu li {
+    display: none;
+
+    & .header-menu li:last-child {
+      display: block;
+    }
+  }
+
+  .bg-img-header {
+    max-width: 100%;
+    height: auto;
+  }
+  
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+
+  .bg-img-header {
+    right: auto;
+    left: -29%;
+    width: auto;
+    max-width: 143%;
+    height: 100%;
+  }
+
+  .span-item {
+    width: 200px !important;
+    height: 200px !important;
+  }
+
+  .line-grey {
+    display: none;
+  }
+
+  .span-card {
+    width: 48%;
+  }
+
+  .span-card h4 {
+    font-size: 28px;
+  }
+  
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .span-card {
+    width: 43% !important;
+
+    h4 {
+      font-size: 28px;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .heading-section {
+    min-height: 270px !important;
+  }
+
+  .span-item {
+    width: 150px !important;
+    height: 150px !important;
+
+    img {
+      height: 44%;
+    }
+  }
+
+  .span-wrap {
+    // padding: 0 7%;
+    padding: 0;
+  }
+
+  .span-card button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .logo {
+    width: 76px;
+  }
+
+  .span-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .span-card h4 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .line-grey {
+    display: none;
+  }
+}
