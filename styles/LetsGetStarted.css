@@ -1,8 +1,6 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/LetsGetStarted\.scss}line{font-family:\000031}}
 .span-container {
   position: relative; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/LetsGetStarted\.scss}line{font-family:\000035}}
 .line-grey {
   height: 10px;
   width: 449px;
@@ -12,42 +10,30 @@
   top: 160px;
   border-radius: 50px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/LetsGetStarted\.scss}line{font-family:\0000316}}
 .span-card h4 {
   font-size: 36px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/LetsGetStarted\.scss}line{font-family:\0000321}}
 .span-wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   padding: 0 122px;
   position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/LetsGetStarted\.scss}line{font-family:\0000327}}
   .span-wrap .span-card {
     display: inline-block;
     margin-top: 45px;
     margin-bottom: 40px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/LetsGetStarted\.scss}line{font-family:\0000332}}
     .span-wrap .span-card .span-item {
       display: block;
       width: 235px;
       height: 235px;
       border-radius: 50%;
       margin: 0 auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/LetsGetStarted\.scss}line{font-family:\0000339}}
       .span-wrap .span-card .span-item.blue {
         background-color: #3ABEBE; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/LetsGetStarted\.scss}line{font-family:\0000343}}
       .span-wrap .span-card .span-item.green {
         background-color: #91BC3F; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/LetsGetStarted\.scss}line{font-family:\0000348}}
     .span-wrap .span-card img {
       margin: 28% auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/LetsGetStarted\.scss}line{font-family:\0000352}}
     .span-wrap .span-card p {
       font-family: 'Montserrat-Light';
       font-weight: normal;
@@ -58,33 +44,26 @@
       line-height: 22px; }
 
 @media (min-width: 1200px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/LetsGetStarted\.scss}line{font-family:\0000365}}
   .span-card {
     width: 43%; } }
 @media screen and (max-width: 1200px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/LetsGetStarted\.scss}line{font-family:\0000371}}
   .base-header-container h3 {
     font-size: 28px;
     width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/LetsGetStarted\.scss}line{font-family:\0000376}}
   .logo {
     width: 260px;
     height: 45px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/LetsGetStarted\.scss}line{font-family:\0000381}}
   .header-menu li {
     display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/LetsGetStarted\.scss}line{font-family:\0000384}}
     .header-menu li .header-menu li:last-child {
       display: block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/LetsGetStarted\.scss}line{font-family:\0000389}}
   .bg-img-header {
     max-width: 100%;
     height: auto; } }
 @media (max-width: 1200px) and (min-width: 992px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/LetsGetStarted\.scss}line{font-family:\0000398}}
   .bg-img-header {
     right: auto;
     left: -29%;
@@ -92,69 +71,49 @@
     max-width: 143%;
     height: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/LetsGetStarted\.scss}line{font-family:\00003106}}
   .span-item {
     width: 200px !important;
     height: 200px !important; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/LetsGetStarted\.scss}line{font-family:\00003111}}
   .line-grey {
     display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/LetsGetStarted\.scss}line{font-family:\00003115}}
   .span-card {
     width: 48%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/LetsGetStarted\.scss}line{font-family:\00003119}}
   .span-card h4 {
     font-size: 28px; } }
 @media (max-width: 991px) and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/LetsGetStarted\.scss}line{font-family:\00003126}}
   .span-card {
     width: 43% !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/LetsGetStarted\.scss}line{font-family:\00003129}}
     .span-card h4 {
       font-size: 28px; } }
 @media (max-width: 991px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/LetsGetStarted\.scss}line{font-family:\00003136}}
   .heading-section {
     min-height: 270px !important; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/LetsGetStarted\.scss}line{font-family:\00003140}}
   .span-item {
     width: 150px !important;
     height: 150px !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/LetsGetStarted\.scss}line{font-family:\00003144}}
     .span-item img {
       height: 44%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/LetsGetStarted\.scss}line{font-family:\00003149}}
   .span-wrap {
     padding: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/LetsGetStarted\.scss}line{font-family:\00003154}}
   .span-card button {
     width: 100%; } }
 @media (max-width: 767px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/LetsGetStarted\.scss}line{font-family:\00003160}}
   .logo {
     width: 76px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/LetsGetStarted\.scss}line{font-family:\00003164}}
   .span-wrap {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; }
+    flex-direction: column; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/LetsGetStarted\.scss}line{font-family:\00003169}}
   .span-card h4 {
     font-size: 24px; } }
 @media (max-width: 1200px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/LetsGetStarted\.scss}line{font-family:\00003175}}
   .line-grey {
     display: none; } }
 

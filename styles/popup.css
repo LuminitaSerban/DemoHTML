@@ -1,18 +1,14 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/popup\.scss}line{font-family:\000031}}
 .popup {
   display: block;
   position: fixed;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   background-color: #fff;
   border-radius: 50px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/popup\.scss}line{font-family:\0000310}}
   .popup .form-input {
     max-width: 640px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac\/Desktop\/rafflenetwork\/styles\/popup\.scss}line{font-family:\0000315}}
 .popup-container {
   position: fixed;
   top: 0;
